@@ -9,5 +9,5 @@ import com.api.taskcontrol.entities.TaskEntity;
 
 @Repository
 public interface TaskRepository extends JpaRepository<TaskEntity, UUID>{
-    
+
 }

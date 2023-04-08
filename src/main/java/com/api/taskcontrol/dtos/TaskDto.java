@@ -3,6 +3,7 @@ package com.api.taskcontrol.dtos;
 import com.api.taskcontrol.enums.Status;
 
 import jakarta.validation.constraints.NotBlank;
+import jakarta.validation.constraints.NotNull;
 import jakarta.validation.constraints.Size;
 
 public class TaskDto {
@@ -13,7 +14,7 @@ public class TaskDto {
     @NotBlank
     @Size(max = 126)
     private String description;
-    @NotBlank
+    @NotNull
     private Status status;
     public String getTitle() {
         return title;
