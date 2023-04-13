@@ -28,7 +28,7 @@ import com.api.taskcontrol.entities.TaskEntity;
 import com.api.taskcontrol.enums.Status;
 import com.api.taskcontrol.services.TaskService;
 
-import jakarta.validation.Valid;
+import javax.validation.Valid;
 
 @RestController
 @CrossOrigin(origins = "*", maxAge = 3600)
